@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Medidas</title>
+    <link rel="stylesheet" href="../css/estilosindex.css">
+    <link rel="stylesheet" href="../css/estilomodelopags.css">
+
+    <script type="text/javascript" src="../js/modificadorCss.js"></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <div id="cabecalhoTito">
+            <h1 id="titopag"> Conversor de medidas </h1>
+            <p>Este conversor é simples e eficaz para um dia a dia corrido</p>
+        </div>
+        <div id="containerInteractive">
+            <div id="containerbuttons">
+                <a href="../../index.html" class="buttonsInteractive"> Home </a>
+                <a href="peso.html" class="buttonsInteractive" > Peso </a>
+                <a href="comprimento.html" class="buttonsInteractive"> Comprimento </a>
+                <a href="volume.html" class="buttonsInteractive"> Volume </a>
+                <a href="tempo.html" class="buttonsInteractive"> Tempo </a>
+            </div>
+        </div>
+    </header>
+    <section id="conteudo">
+        <div class="container">
+            <span id="tito"> Conversor de Pesos </span>
+            <div class="containerInput">
+                <span> converter de:</span>
+                <select id="unidade1" class="boxunidade">
+                    <option value="" > Selecione uma das medidas </option>
+                    <option value="kg"> QuiloGrama</option>
+                    <option value="hg"> Hectograma</option>
+                    <option value="dag">Decagrama</option>
+                    <option value="g"> Grama </option>
+                    <option value="dg"> Decigrama </option>
+                    <option value="cg"> Centigrama </option>
+                    <option value="mg"> Miligrama </option>
+                </select><br>
+                <span> para:</span>
+                <select id="unidade2" class="boxunidade">
+                    
+                    <option value="" > Selecione uma das medidas </option>
+                    <option value="kg"> QuiloGrama</option>
+                    <option value="hg"> Hectograma</option>
+                    <option value="dag">Decagrama</option>
+                    <option value="g"> Grama </option>
+                    <option value="dg"> Decigrama </option>
+                    <option value="cg"> Centigrama </option>
+                    <option value="mg"> Miligrama </option>
+                </select>
+            </div>    
+            <input type="number" id="valor" placeholder="Digite um numero...">
+            <input type="number" id="resultado" class="resultado" placeholder="aqui sai o resultado...">     
+
+        </div>
+    </section>
+    <footer id="rodape">
+        <div id="copyright">
+            © Copyright 2022 Conversor de medidas Eficaz.<br>
+            by: <a href="https://github.com/DEVJS2005"> DEVJS2005 </a>
+        </div>
+    </footer>
+    <script src="../scripts/scriptjs.js"></script>
+</body>
+</html>
