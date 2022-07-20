@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css/estilomodelopags.css">
     <link rel="shortcut icon" href="../imagens/favicon.png" type="image/x-icon">
     <script type="text/javascript" src="../js/modificadorCss.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4941630411283459"
+     crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="cabecalho">
@@ -16,10 +18,16 @@
             <h1 id="titopag"> Conversor de medidas </h1>
             <p>Este conversor é simples e eficaz para um dia a dia corrido</p>
         </div>
+        <button onclick="abrirSideBar()" class="btn_icon_header" id="btnlist"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg> </button>
         <div id="containerInteractive">
             <div id="containerbuttons">
+                <button onclick="abrirSideBar()" class="btn_icon_header"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </button>
                 <a href="../../index.html" class="buttonsInteractive"> Home </a>
-                <a href="peso.html" class="buttonsInteractive" > Peso </a>
+                <a href="#" class="buttonsInteractive" > Peso </a>
                 <a href="comprimento.html" class="buttonsInteractive"> Comprimento </a>
                 <a href="volume.html" class="buttonsInteractive"> Volume </a>
                 <a href="tempo.html" class="buttonsInteractive"> Tempo </a>
@@ -66,5 +74,6 @@
         </div>
     </footer>
     <script src="../scripts/scriptjs.js"></script>
+    <script src="src/scripts/index.js"></script>
 </body>
 </html>
