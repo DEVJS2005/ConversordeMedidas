@@ -1,5 +1,12 @@
 # ConversordeMedidas
- Site que eu vou tentar desenvolver e colocar ADS e colocar online para outras pessoas verem.
+Esse projeto surgiu no incio da minha jornada como estudante de desenvolvimento de sistemas.
+Eu sempre quis ter um site rodando na internet para que eu pudesse mostrar todo o meu conhecimento técnico
+felizmente esse dia chegou e eu pude dar um "up" no meu github com um projeto que eu vou trabalhar por um tempo
+até aperfeiçoar as minhas hard skill's como: 
+- HTML ![image](https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg)
+- CSS ![image](https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg)
+- JavaScript ![image](https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg)
+- Logica de programação
  
  Rodando perfeitamente no link: https://jsconversor.000webhostapp.com/index.html
  
