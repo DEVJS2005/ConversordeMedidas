@@ -1,7 +1,7 @@
 # ConversordeMedidas
 Esse projeto surgiu no incio da minha jornada como estudante de desenvolvimento de sistemas.
-Eu sempre quis ter um site rodando na internet para que eu pudesse mostrar todo o meu conhecimento técnico
-felizmente esse dia chegou e eu pude dar um "up" no meu github com um projeto que eu vou trabalhar por um tempo
+Eu sempre quis ter um site rodando na internet para que eu pudesse mostrar todo o meu conhecimento técnico,
+felizmente, esse dia chegou e eu pude dar um "up" no meu github com um projeto que eu vou trabalhar por um tempo
 até aperfeiçoar as minhas hard skill's como: 
 - HTML <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg " width="30" height="30"> 
 - CSS <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" width="30" height="30">
